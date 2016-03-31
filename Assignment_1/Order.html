@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <link href="basestyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="tfheader">
+    <form id="tfnewsearch" method="get" action="http://www.google.com">
+        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"  placeholder="This is for design not function"><input type="submit" value="search" class="tfbutton">
+    </form>
+    <div class="tfclear"></div>
+</div>
+
+<header><div class="headerpos">
+    <div id="header"></div>
+    <div class="nav">
+        <ul>
+
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="what"><a href="WhatCosplay.html">Cosplay?</a></li>
+            <li class="costume"><a href="Costumes.html">Costumes</a></li> <!--change class names here-->
+            <li class="Events"><a href="Events.html">Events</a></li>
+            <li class="Announcements"><a href="Announcements.html">News</a></li>
+            <li class="contact"><a href="Contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+</div>
+    <div class="dropdown">
+        <button class="dropbtn"><img src='images/hamburger.png'></button>
+        <div class="dropdown-content">
+            <a href="buy.html">Buy</a>
+            <a href="misslead.html">Sell</a>
+            <a href="ContactUs.html">Contact Us</a>
+
+        </div>
+    </div>
+</header>
+<div class = main>
+    <h1>Place an Order</h1>
+    <p>Please detail to us the specifications of the cosplay costume that you desire</p>
+    <p>Thank you!</p><br>
+    <form action="MAILTO:CosiePlay@gmail.com" method="post" enctype="text/plain" style='width: 50%; margin-left: auto; margin-right: auto;'>
+        Name:<br>
+        <input type="text" name="name" placeholder = "Enter your name"><br>
+        Size:<br>
+        <input type="text" name="Size" PLACEHOLDER="Enter your size" size="50"><br>
+        Desired Timeline:<br>
+        <input type="text" name="TimeLine" PLACEHOLDER="Desired Completion Time" size="50"><br>
+        Budget:<br>
+        <input type="text" name="Budget" PLACEHOLDER="Desired Budget" size="50"><br>
+        Description:<br>
+        <input type="text" name="Description" PLACEHOLDER="Description of Costume" size="50"><br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+
+</div>
+<div class="footer">
+    <form class = footerform action="misslead.html">
+        Subscribe for email updates: <input type="text" name="Email">
+        <input type="submit" value="Subscribe">
+        <a href="misslead.html"><img class = "FooterFloat"  src='images/fb.png/'></a>
+        <a href="misslead.html"><img class = "FooterFloat"  src='images/twitter.png/'></a>
+        <a href="Order.html"><div class="SecondAction" ></div></a>
+        <p>Order A Costume</p><p id="banner"> Today!</p>
+    </form>
+
+</div>
+</body>
+</html>

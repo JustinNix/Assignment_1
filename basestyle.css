@@ -12,6 +12,9 @@ body {
     margin-top: 12.8%;
     padding: 0;
 }
+a{
+    color: black;
+}
 
 .nav ul {
     list-style: none;
@@ -161,6 +164,7 @@ body {
         margin-top: 0;
         margin-left: 23%;
         padding: 1em;
+        font-weight: bolder; 
     }
 }
 .dropbtn {
@@ -288,7 +292,7 @@ td{
 }
 #ImgFloat{
     float: left;
-    margin: 0 0 0 310px;
+   margin-left: 25%;
     padding-right: 1em;
     padding-bottom: 0.3em;
 }
@@ -323,7 +327,7 @@ td{
 }
 .EventForm>p {
     position: relative;
-    top: 2em;
+    top: 0;
 }
 .EventForm>input[type=text] {
     position: relative;
@@ -374,7 +378,7 @@ td{
 }
 .footerform>p {
     position: absolute;
-    right: 4.5em;
+    right: 4.3%;
     top: -120%;
     font-size: 0.8em;
 }
@@ -383,7 +387,10 @@ td{
     position:absolute;
     font-size: 1.2em;
     top: -100%;
-    right: 3.9em;
+    right: 5%;
+}
+.FormDiv{
+    position:relative;
 }
 
 /* add max and min widths to objects for resizable friendly*/

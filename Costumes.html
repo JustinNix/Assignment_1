@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <link href="basestyle.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+
+<div id="tfheader">
+    <form id="tfnewsearch" method="get" action="http://www.google.com">
+        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"  placeholder="This is for design not function"><input type="submit" value="search" class="tfbutton">
+    </form>
+    <div class="tfclear"></div>
+</div>
+
+<header><div class="headerpos">
+    <div id="header"></div>
+    <div class="nav">
+        <ul>
+
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="what"><a href="WhatCosplay.html">Cosplay?</a></li>
+                <li class="costume"><a href="Costumes.html">Costumes</a></li> <!--change class names here-->
+                <li class="Events"><a href="Events.html">Events</a></li>
+                <li class="Announcements"><a href="Announcements.html">News</a></li>
+                <li class="contact"><a href="Contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+</div>
+    <div class="dropdown">
+        <button class="dropbtn"><img src='images/hamburger.png'></button>
+        <div class="dropdown-content">
+            <a href="buy.html">Buy</a>      <!-- this only works for one click?-->
+            <a href="misslead.html">Sell</a>
+            <a href="ContactUs.html">Contact Us</a>
+
+        </div>
+    </div>
+</header>
+
+<div class="main">
+    <h1>Costumes</h1>
+   <p> Cosplayers can <a href="Order.html">order</a> any kind of costume - from simple Spiderman or elf costumes right up to costumes including advanced features like armour, animatronics, realistic weaponry and working force fields. Depending on the difficulty, costumes take between 1 and 50 weeks and cost between $10 and $10,000.</p>
+    <table style='width: 50%; margin-left: auto; margin-right: auto;' >
+        <tr>
+            <td>The example on the right - is a very popular medieval, leather based costume. It is mostly desired amongst men and is available in all sizes but small. The price can range depending on accessories anywhere from $300 - $1000.</td>
+            <td width='50%'><img style='width: 200px' src='images/boromir-4-1478698.jpg'/></td>
+        </tr>
+        <tr>
+            <td>The winter princess costume as can be seen on the right is an example of the cross gender that is present in Cosplay. However said, this costume can be tailored to any gender and is very popular amongst teenage girls. Sizes range anywhere from small to large and can cost in the range of $250-$400.</td>
+            <td width='50%'><img style='width: 200px' src='images/winter-kingdom-798279_1920.jpg'/></td>
+        </tr>
+    </table>
+</div>
+
+<div class="footer">
+    <form class = footerform action="misslead.html">
+        Subscribe for email updates: <input type="text" name="Email">
+        <input type="submit" value="Subscribe">
+        <a href="misslead.html"><img class = "FooterFloat"  src='images/fb.png/'></a>
+        <a href="misslead.html"><img class = "FooterFloat"  src='images/twitter.png/'></a>
+        <a href="Order.html"><div class="SecondAction" ></div></a>
+        <p>Order A Costume</p><p id="banner"> Today!</p>
+    </form>
+
+</div>
+
+
+</body>
+</html>
